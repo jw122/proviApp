@@ -50,7 +50,6 @@
                     <navigationItem key="navigationItem" id="2Wc-1d-wLP"/>
                     <connections>
                         <outlet property="alertButton" destination="lMn-yG-t5O" id="WJj-OG-FNj"/>
-                        <outlet property="text" destination="MJr-9y-uxw" id="LxL-Nq-vfa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBd-jk-oEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
