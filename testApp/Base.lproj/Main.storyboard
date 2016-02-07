@@ -5,6 +5,35 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="TaV-N9-msd">
+            <objects>
+                <viewController id="cpS-sS-acW" customClass="ViewController" customModule="testApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DaA-u5-dgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="OIS-jv-vdS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t4A-ER-15W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBO-Ch-agX">
+                                <rect key="frame" x="137" y="215" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="wdS-yi-ahL" kind="show" id="9vb-zt-xnR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ivF-KJ-PRZ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zru-WC-LdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77" y="163"/>
+        </scene>
         <!--Alert View Controller-->
         <scene sceneID="BQX-gD-mD8">
             <objects>
@@ -40,7 +69,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="top" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Set your alert message." borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJr-9y-uxw">
-                                <rect key="frame" x="69" y="210" width="174" height="30"/>
+                                <rect key="frame" x="69" y="210" width="198" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
@@ -54,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBd-jk-oEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="136"/>
+            <point key="canvasLocation" x="664" y="136"/>
         </scene>
         <!--People List Table View Controller-->
         <scene sceneID="Ls3-f4-eDq">
@@ -116,12 +145,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="wdS-yi-ahL" kind="relationship" relationship="rootViewController" id="C8E-PR-QXT"/>
+                        <segue destination="cpS-sS-acW" kind="relationship" relationship="rootViewController" id="vBJ-nm-hkl"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dB-Fa-ShS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="277" y="136"/>
+            <point key="canvasLocation" x="-340" y="163"/>
         </scene>
     </scenes>
 </document>
