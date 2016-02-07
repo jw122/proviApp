@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple - México
+ORG:Apple - México;
+TEL;type=MAIN;type=pref:001-800-692-7753
+item1.ADR;type=WORK;type=pref:;;Av. Prolongación Paseo de la Reforma No. 600\, Suite 132;Distrito Federal;DF;01210;México
+item1.X-ABADR:mx
+item2.URL;type=pref:http://www.apple.com/mx
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

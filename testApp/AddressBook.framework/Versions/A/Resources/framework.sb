@@ -1,0 +1,6 @@
+(if (entitlement "com.apple.security.personal-information.addressbook")
+    (begin
+       (shared-preferences-read "com.apple.AddressBook.sync")
+       (allow file-read* file-write* (home-subpath "/Library/Application Support/SyncServices"))
+       (allow mach-lookup (global-name "com.apple.syncservices.SyncServer"))
+       (allow mach-lookup (global-name "com.apple.AddressBook.ScheduledSync"))))

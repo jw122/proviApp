@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple Brasil
+ORG:Apple Brasil;
+TEL;type=MAIN;type=pref:0800-761-0867
+item1.ADR;type=WORK;type=pref:;700 - 7° andar;Rua Leopoldo Couto Magalhães Júnior;São Paulo;SP;04542-000;Brasil
+item1.X-ABADR:br
+item2.URL;type=pref:http://www.apple.com/br
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

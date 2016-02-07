@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple Italia srl
+ORG:Apple Italia srl;
+item1.URL;type=pref:http://www.apple.com/it/
+item1.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

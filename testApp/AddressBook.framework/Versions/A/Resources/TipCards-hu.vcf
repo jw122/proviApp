@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple
+ORG:Apple;
+TEL;type=MAIN;type=pref:+36 1 883 0300
+item1.URL;type=pref:http://www.apple.com/hu/
+item1.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

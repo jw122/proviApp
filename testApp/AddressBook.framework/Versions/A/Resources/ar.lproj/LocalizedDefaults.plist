@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <!-- Display order: FirstName LastName: 0 LastName FirstName: 1 -->
+        <key>ABNameDisplay</key>
+        <integer>0</integer>
+        <!-- Display order for New Contact creation: Default (follow ABNameDisplay): 0 FirstName LastName: 1 LastName FirstName: 2 -->
+        <key>ABNewContactNameDisplay</key>
+        <integer>0</integer>
+        <!-- Sorting order: Sort by FirstName: 0 Sort by LastName: 1 -->
+        <key>ABNameSorting</key>
+        <integer>0</integer>
+        <!-- Short name style: None: 0, First name + last initial: 1, First initial + last name: 2, First name only: 3, Last name only: 4 -->
+        <key>ABShortNameStyle</key>
+        <integer>3</integer>
+		<!-- Encoding for 2.1 vcards -->
+		<key>AB21vCardEncoding</key>
+		<string>MACINTOSH</string>
+		<key>ABDefaultAddressCountryCode</key>
+		<string>ae</string>
+		<key>ABNameSortingFormat</key>
+		<string>sortingLastName sortingFirstName</string>
+	<key>ABNameViewPhotoInsetLeading</key>
+	<integer>60</integer>
+	<key>ABTemplateNameViewPhotoInsetLeading</key>
+	<integer>75</integer>
+</dict>
+</plist>

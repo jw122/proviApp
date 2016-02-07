@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple Japan
+ORG:Apple Japan;
+item1.ADR;type=WORK;type=pref:;;六本木ヒルズ;港区六本木6丁目10番1号;東京都;106-6140;日本
+item1.X-ABADR:jp
+item2.URL;type=pref:http://www.apple.com/jp/
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABShowAs:COMPANY
+X-ABPhoto:TipCardLogo
+END:VCARD

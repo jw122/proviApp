@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple Canada
+ORG:Apple Canada;
+TEL;type=MAIN;type=pref:1 (800) MYAPPLE
+item1.ADR;type=WORK;type=pref:;;7495 Birchmount Road;Markham;Ontario;L3R 5G2;Canada
+item1.X-ABADR:ca
+item2.URL;type=pref:http://www.apple.com/ca
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

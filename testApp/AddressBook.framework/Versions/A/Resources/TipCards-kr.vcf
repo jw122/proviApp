@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:애플코리아 (유한회사)
+ORG:애플코리아 (유한회사);
+TEL;type=MAIN;type=pref:02-6712-6700
+item1.TEL:080-333-4000
+item1.X-ABLabel:AppleCare
+item2.TEL:080-330-8877
+item2.X-ABLabel:Apple Store
+item3.ADR;type=WORK;type=pref:;;강남구 삼성동 159번지\n아셈타워 39층 3901호;서울시;;135-798;대한민국
+item3.X-ABADR:kr
+item4.URL;type=pref:http://www.apple.com/kr
+item4.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

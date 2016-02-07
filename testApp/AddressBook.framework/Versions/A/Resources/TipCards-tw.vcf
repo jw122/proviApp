@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple  (台灣)
+ORG:Apple  (台灣)
+item1.TEL;type=pref:+8 86 (0) 800-095-988
+item1.X-ABLabel:AppleCare
+item2.TEL:+886 (0) 800-020-021
+item2.X-ABLabel:Apple Store
+item3.ADR;type=WORK;type=pref:;;;;;;台灣
+item3.X-ABADR:tw
+item4.URL;type=pref:http://www.apple.com/tw/
+item4.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

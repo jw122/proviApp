@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple (香港)
+ORG:Apple (香港)
+item1.TEL;type=pref:+8 52 2112 0099
+item1.X-ABLabel:AppleCare
+item2.TEL:+8 52 (800) 908 988
+item2.X-ABLabel:Apple Store
+item3.ADR;type=WORK;type=pref:;;;;;;香港
+item3.X-ABADR:cn
+item4.URL;type=pref:http://www.apple.com/hk/
+item4.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;;;;
+FN:Apple Inc.
+ORG:Apple Inc.;
+TEL;type=MAIN;type=pref:0800 039 1010
+item1.URL;type=pref:http://www.apple.com/uk/
+item1.X-ABLabel:_$!<HomePage>!$_
+X-ABPhoto:TipCardLogo
+X-ABShowAs:COMPANY
+END:VCARD

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>format</key>
+		<string>sortingFirstName sortingLastName</string>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>label</key>
+			<string>이름</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>format</key>
+		<string>sortingLastName sortingFirstName</string>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>label</key>
+			<string>성</string>
+		</dict>
+	</dict>
+</array>
+</plist>
