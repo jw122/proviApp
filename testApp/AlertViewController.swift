@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CoreBluetooth
+
 
 
 class AlertViewController: UIViewController {
@@ -16,10 +18,26 @@ class AlertViewController: UIViewController {
     let TWILIO_NUM = "+19135433698"
     let TO_NUMBER = "+14016123230"
     let message = "Please help me!"
+    
 
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
+        
+        // Do any additional setup after loading the view, typically from a nib.
+    
+        
+        // Scan for all available CoreBluetooth LE devices
+        
+//        let uid = init(1802);
+//        NSArray *services = [NSArray arrayWithObject:[CBUUID UUIDWithString:@"1802"]];
+//        CBCentralManager *centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil];
+//        
+//        //scan for devices
+//        [centralManager scanForPeripheralsWithServices:services options:nil];
+//        self.centralManager = centralManager;
+        
+        
         
 //        let status = ABAddressBookGetAuthorizationStatus()
 //        if status == .Denied || status == .Restricted {
@@ -52,6 +70,11 @@ class AlertViewController: UIViewController {
 //                print(people)
 //            }
 //        }
+        
+        let centralManager:CBCentralManager!
+        var connectingPeripheral:CBPeripheral!
+        
+        let serviceUUIDs:[AnyObject] = [CBUUID(string: "1802")];
         
     }
 
