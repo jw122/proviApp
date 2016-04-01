@@ -17,7 +17,7 @@ class AlertViewController: UIViewController {
     let AUTH_TOKEN = "1ecb75e8fca8e5f65fa790c4e40602ff"
     let TWILIO_NUM = "+19135433698"
     let TO_NUMBER = "+14016123230"
-    let message = "Please help me!"
+    let message = "Sam sent you an emergency alert."
     
 
     
